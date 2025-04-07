@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+@theme {
+  --color-tg-text: var(--tg-theme-text-color);
+}
