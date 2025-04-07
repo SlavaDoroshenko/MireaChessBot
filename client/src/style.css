@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
 @theme {
-  --color-tg-text: var(--tg-theme-text-color);
+  --color-accent-text: var(--tg-theme-accent-text-color);
+  --color-bg: var(--tg-theme-bg-color);
+  --color-button: var(--tg-theme-button-color);
+  --color-button-text: var(--tg-theme-button-text-color);
+  --color-bottom-bar-bg: var(--tg-theme-bottom-bar-bg-color);
+  --color-destructive-text: var(--tg-theme-destructive-text-color);
+  --color-header-bg: var(--tg-theme-header-bg-color);
+  --color-hint: var(--tg-theme-hint-color);
+  --color-link: var(--tg-theme-link-color);
+  --color-secondary-bg: var(--tg-theme-secondary-bg-color);
+  --color-section-bg: var(--tg-theme-section-bg-color);
+  --color-section-header-text: var(--tg-theme-section-header-text-color);
+  --color-subtitle-text: var(--tg-theme-subtitle-text-color);
+  --color-text: var(--tg-theme-text-color);
 }

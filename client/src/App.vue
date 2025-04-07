@@ -26,11 +26,20 @@ export default {
 </script>
 
 <template>
-  <div className="h-screen flex justify-center items-center">
-    <h1 class="text-red-500 animate-pulse" v-if="isLoading">Загрузка</h1>
-    <h1 class="text-green-400" v-else>{{ data.id }}</h1>
-    <button class="text-tg-text" type="button" @click="getUserId()">
-      Узнай свой id
-    </button>
+  <div className="h-screen flex justify-center items-center bg-bg">
+    <div className="flex flex-col items-center gap-3">
+      <h1 className="text-accent-text animate-pulse" v-if="isLoading">
+        Загрузка
+      </h1>
+      <h1 className="text-destructive-text" v-else>{{ data.id }}</h1>
+      <button
+        class="text-button-text bg-button rounded-lg p-2"
+        type="button"
+        @click="getUserId()"
+      >
+        Узнай свой id
+      </button>
+      <h1 className="text-text">Жопа</h1>
+    </div>
   </div>
 </template>
